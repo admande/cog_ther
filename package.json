@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
+    "@vitalsource/vstui": "^3.5.0",
+    "html-react-parser": "^1.2.4",
+    "mosaic-components": "git+ssh://git@github.com/vitalsource/mosaic-components.git#BO-6354-shared-resourcing",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-intl": "^5.12.3",
     "react-scripts": "4.0.2",
+    "react-shadow": "^19.0.2",
+    "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
@@ -34,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13"
   }
 }
